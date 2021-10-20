@@ -1,5 +1,11 @@
+import SideBar from "../components/sidebar";
+
 function Index() {
-  return <div></div>;
+  return (
+    <div>
+      <SideBar />
+    </div>
+  );
 }
 
 export default Index;
